@@ -30,10 +30,8 @@ namespace CustomerEmployeeAp
             string username = userbox.Text;
             string password = passwordbox.Password;
 
-            mainpage login = new mainpage();
-            login.Show();
-            Close();
-            /*
+         
+            
             if (username == "abc" && password== "123")
             {
                 MessageBox.Show("successfully login completed");
@@ -62,7 +60,7 @@ namespace CustomerEmployeeAp
             {
                 loginpagetextblock.Text = "incorrect username or password!! \n \t try again";
                 userbox.Focus();
-            }*/
+            }
 
         }
     }
